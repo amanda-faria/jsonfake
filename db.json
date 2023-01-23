@@ -1,0 +1,107 @@
+{
+    "leitor": [
+      { "id": 1, "nome": "Amanda",  "sexo": "Feminino", "dtNascimento": "02/02/1997", "logadouro": "rua 1", "numero": "10" , "complemento": "casa", "bairro": "santa terezinha", "cep": "32568952", "cidade": "Belo Horizonte", "uf": "Minas Gerais",  "telefone": "32 988658231 ",  "email": "amanda@email" },
+      { "id": 2, "nome": "Bianca",  "sexo": "Feminino", "dtNascimento": "06/08/1996", "logadouro": "rua 2", "numero": "60" , "complemento": "apartamento", "bairro": "santa Lucia", "cep": "35628996", "cidade": "Juiz de Fora", "uf": "Minas Gerais",  "telefone": "32 98863699 ",  "email": "bianca@email" },
+      { "id": 3, "nome": "Carla",  "sexo": "Feminino", "dtNascimento": "02/07/1999", "logadouro": "rua 3", "numero": "30" , "complemento": "casa", "bairro": "Cedrolândia", "cep": "36542300", "cidade": "Caetanópolis", "uf": "Minas Gerais",  "telefone": "32 988863625 ",  "email": "carla@email" },
+      { "id": 4, "nome": "Diana",  "sexo": "Feminino", "dtNascimento": "06/08/2003", "logadouro": "rua 4", "numero": "60" , "complemento": "casa", "bairro": "Venda Nova", "cep": "35628996", "cidade": "Sete lagoas", "uf": "Minas Gerais",  "telefone": "32 988868574 ",  "email": "diana@email" },
+      { "id": 5, "nome": "Emilia",  "sexo": "Feminino", "dtNascimento": "02/02/1997", "logadouro": "rua 1", "numero": "10" , "complemento": "casa", "bairro": "Santa Luzia ", "cep": "36252148", "cidade": "Belo Horizonte", "uf": "Minas Gerais",  "telefone": "32 988658231 ",  "email": "emilia@email" }
+    ],
+
+    "funcionario": [
+      { "id": 1, "nome": "Fábio",  "sexo": "Masculino", "dtNascimento": "05/04/1991", "logadouro": "rua a", "numero": "44" , "complemento": "casa", "bairro": "Jordania", "cep": "32568952", "cidade": "Jaquaquicetuba", "uf": "São Paulo",  "telefone": "32 988847856 ",  "email": "fabio@email" },
+      { "id": 2, "nome": "Gabriel",  "sexo": "Masculino", "dtNascimento": "06/08/1996", "logadouro": "rua b", "numero": "55" , "complemento": "apartamento", "bairro": "santa Lucia", "cep": "35628996", "cidade": "Juiz de Fora", "uf": "Minas Gerais",  "telefone": "32 98863699 ",  "email": "gabriel@email" },
+      { "id": 3, "nome": "Hugo",  "sexo": "Masculino", "dtNascimento": "06/11/1999", "logadouro": "rua c", "numero": "35" , "complemento": "casa", "bairro": "Cedrolândia", "cep": "36542300", "cidade": "Caetanópolis", "uf": "Minas Gerais",  "telefone": "32 988863625 ",  "email": "hugo@email" },
+      { "id": 4, "nome": "Iuri",  "sexo": "Masculino", "dtNascimento": "08/08/2006", "logadouro": "rua d", "numero": "58" , "complemento": "casa", "bairro": "Venda Nova", "cep": "35628996", "cidade": "Tijuca", "uf": "Rio de Janeiro",  "telefone": "32 988868574 ",  "email": "iuri@email" },
+      { "id": 5, "nome": "Joana",  "sexo": "Feminino", "dtNascimento": "12/11/1992", "logadouro": "rua e", "numero": "19" , "complemento": "casa", "bairro": "Santa Luzia ", "cep": "36252148", "cidade": "Belo Horizonte", "uf": "Minas Gerais",  "telefone": "32 988658231 ",  "email": "joana@email" }
+    ],
+
+    "configuracao": [
+        { "id": 1, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "2", "pemiteReserva": "Sim" },
+        { "id": 2, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Não", "quantMaxEmprestimo": "4", "pemiteReserva": "Sim" },
+        { "id": 3, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "3", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "4", "pemiteReserva": "Não" },
+        { "id": 4, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "4", "valorMulta": "1", "permiteRenovar": "Não", "quantMaxEmprestimo": "2", "pemiteReserva": "Sim" },
+        { "id": 5, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "1", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "3", "pemiteReserva": "Não" }
+      ],
+
+      "renovacao": [
+        { "id": 1, "quantDias":  "5" , "datRenovacao":  "3" },
+        { "id": 2, "quantDias":  "3" , "datRenovacao":  "2" },
+        { "id": 3, "quantDias":  "3" , "datRenovacao":  "6" },
+        { "id": 4, "quantDias":  "2" , "datRenovacao":  "2" },
+        { "id": 5, "quantDias":  "5" , "datRenovacao":  "5" }
+
+      ],
+
+      "devolucao": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ],
+
+      "exemplar": [
+        { "id": 1, "numTombo":  "2568", "dtAquisicao":  "02/05/2016",  "tipoAquisicao": "01/05/1996", "valor": "rua 52"},
+        { "id": 2, "numTombo":  "3689", "dtAquisicao":  "06/09/2007",  "tipoAquisicao": "03/06/1996", "valor": "rua 9"},
+        { "id": 3, "numTombo":  "7856", "dtAquisicao":  "22/05/2005",  "tipoAquisicao": "03/06/1996", "valor": "rua 155"},
+        { "id": 4, "numTombo":  "1554", "dtAquisicao":  "21/03/2008",  "tipoAquisicao": "03/05/1998", "valor": "rua 66"},
+        { "id": 5, "numTombo":  "2369", "dtAquisicao":  "02/06/2001",  "tipoAquisicao": "21/12/2003", "valor": "rua 2"}
+      ],
+
+      "emprestimo": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ],
+      
+      "emprestimoEExemplar": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ],
+
+      "documento": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ],
+
+      "autor": [
+        { "id": 1, "nome": "Matheus Soranço" },
+        { "id": 2, "nome": "Paulo Coelho" },
+        { "id": 3, "nome": "Ziraldo" },
+        { "id": 4, "nome": "Machado de Assis" },
+        { "id": 5, "nome": "George Amado" }
+      ],
+
+      "titulo": [
+        { "id": 1, "titulo":  "O menino maluquinho" , "subtitulo":  "E as cronicas de Nárnia", "edicao": "1998", "area": "história", "totalPaginas": "104", "notaSerie": "2", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "02/01/2006", "idioma": "Pontuguês"},
+        { "id": 2, "titulo":  "A arte de ligar o foda-se" , "subtitulo":  "A arte de ligar o foda-se - Segunda edição", "edicao": "2005", "area": "história", "totalPaginas": "896", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "02/08/2010", "idioma": "Polonês"},
+        { "id": 3, "titulo":  "Pai rico, pai pobre" , "subtitulo":  "Pai rico, pai pobre - Primeira Edição", "edicao": "2006", "area": "história", "totalPaginas": "356", "notaSerie": "1", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "23/08/2001", "idioma": "Inglês"},
+        { "id": 4, "titulo":  "Mente milionária" , "subtitulo":  "Mente milionária - Primeira Edição", "edicao": "2001", "area": "história", "totalPaginas": "201", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "12/10/1996", "idioma": "Pontuguês"},
+        { "id": 5, "titulo":  "Pinóquio" , "subtitulo":  "Pinóquio - Primeira Edição", "edicao": "2005", "area": "história", "totalPaginas": "603", "notaSerie": "6", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "30/03/2004", "idioma": "Inglês"}  
+      ],
+
+      "reserva": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ],
+
+      "exemplarEReserva": [
+        { "id": 1 },
+        { "id": 2 },
+        { "id": 3 },
+        { "id": 4 },
+        { "id": 5 }
+      ]
+      
+  }
