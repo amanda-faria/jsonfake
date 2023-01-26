@@ -23,23 +23,6 @@
         { "id": 5, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "1", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "3", "pemiteReserva": "Não" }
       ],
 
-      "renovacao": [
-        { "id": 1, "quantDias":  "5" , "datRenovacao":  "3" },
-        { "id": 2, "quantDias":  "3" , "datRenovacao":  "2" },
-        { "id": 3, "quantDias":  "3" , "datRenovacao":  "6" },
-        { "id": 4, "quantDias":  "2" , "datRenovacao":  "2" },
-        { "id": 5, "quantDias":  "5" , "datRenovacao":  "5" }
-
-      ],
-
-      "devolucao": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
-      ],
-
       "exemplar": [
         { "id": 1, "numTombo":  "2568", "dtAquisicao":  "02/05/2016",  "tipoAquisicao": "01/05/1996", "valor": "rua 52"},
         { "id": 2, "numTombo":  "3689", "dtAquisicao":  "06/09/2007",  "tipoAquisicao": "03/06/1996", "valor": "rua 9"},
@@ -48,37 +31,7 @@
         { "id": 5, "numTombo":  "2369", "dtAquisicao":  "02/06/2001",  "tipoAquisicao": "21/12/2003", "valor": "rua 2"}
       ],
 
-      "emprestimo": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
-      ],
-      
-      "emprestimoEExemplar": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
-      ],
-
-      "documento": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
-      ],
-
-      "autor": [
-        { "id": 1, "nome": "Matheus Soranço" },
-        { "id": 2, "nome": "Paulo Coelho" },
-        { "id": 3, "nome": "Ziraldo" },
-        { "id": 4, "nome": "Machado de Assis" },
-        { "id": 5, "nome": "George Amado" }
-      ],
+   
 
       "titulo": [
         { "id": 1, "titulo":  "O menino maluquinho" , "subtitulo":  "E as cronicas de Nárnia", "edicao": "1998", "area": "história", "totalPaginas": "104", "notaSerie": "2", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "02/01/2006", "idioma": "Pontuguês"},
@@ -86,22 +39,6 @@
         { "id": 3, "titulo":  "Pai rico, pai pobre" , "subtitulo":  "Pai rico, pai pobre - Primeira Edição", "edicao": "2006", "area": "história", "totalPaginas": "356", "notaSerie": "1", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "23/08/2001", "idioma": "Inglês"},
         { "id": 4, "titulo":  "Mente milionária" , "subtitulo":  "Mente milionária - Primeira Edição", "edicao": "2001", "area": "história", "totalPaginas": "201", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "12/10/1996", "idioma": "Pontuguês"},
         { "id": 5, "titulo":  "Pinóquio" , "subtitulo":  "Pinóquio - Primeira Edição", "edicao": "2005", "area": "história", "totalPaginas": "603", "notaSerie": "6", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "30/03/2004", "idioma": "Inglês"}  
-      ],
-
-      "reserva": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
-      ],
-
-      "exemplarEReserva": [
-        { "id": 1 },
-        { "id": 2 },
-        { "id": 3 },
-        { "id": 4 },
-        { "id": 5 }
       ]
       
   }
