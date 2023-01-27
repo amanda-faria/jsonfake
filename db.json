@@ -38,13 +38,6 @@
       { "id": 3, "titulo":  "Pai rico, pai pobre" , "subtitulo":  "Pai rico, pai pobre - Primeira Edição", "edicao": "2006", "area": "história", "totalPaginas": "356", "notaSerie": "1", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "23/08/2001", "idioma": "Inglês"},
       { "id": 4, "titulo":  "Mente milionária" , "subtitulo":  "Mente milionária - Primeira Edição", "edicao": "2001", "area": "história", "totalPaginas": "201", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "12/10/1996", "idioma": "Pontuguês"},
       { "id": 5, "titulo":  "Pinóquio" , "subtitulo":  "Pinóquio - Primeira Edição", "edicao": "2005", "area": "história", "totalPaginas": "603", "notaSerie": "6", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "30/03/2004", "idioma": "Inglês"}  
-    ],
-    "devolucao": [
-      { "id": 1 },
-      { "id": 2 },
-      { "id": 3 },
-      { "id": 4 },
-      { "id": 5 }
     ]
     
 }
