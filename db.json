@@ -31,7 +31,6 @@
       { "id": 5, "numTombo":  "2369", "dtAquisicao":  "02/06/2001",  "tipoAquisicao": "21/12/2003", "valor": "rua 2"}
     ],
 
-
     "titulo": [
       { "id": 1, "titulo":  "O menino maluquinho" , "subtitulo":  "E as cronicas de Nárnia", "edicao": "1998", "area": "história", "totalPaginas": "104", "notaSerie": "2", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "02/01/2006", "idioma": "Pontuguês"},
       { "id": 2, "titulo":  "A arte de ligar o foda-se" , "subtitulo":  "A arte de ligar o foda-se - Segunda edição", "edicao": "2005", "area": "história", "totalPaginas": "896", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "02/08/2010", "idioma": "Polonês"},
@@ -39,5 +38,4 @@
       { "id": 4, "titulo":  "Mente milionária" , "subtitulo":  "Mente milionária - Primeira Edição", "edicao": "2001", "area": "história", "totalPaginas": "201", "notaSerie": "5", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "12/10/1996", "idioma": "Pontuguês"},
       { "id": 5, "titulo":  "Pinóquio" , "subtitulo":  "Pinóquio - Primeira Edição", "edicao": "2005", "area": "história", "totalPaginas": "603", "notaSerie": "6", "cidadePublicacao": "Campinas", "editora": "Companhia das Letras", "dtPublicacao": "30/03/2004", "idioma": "Inglês"}  
     ]
-    
 }
