@@ -16,19 +16,19 @@
   ],
 
   "configuracao": [
-      { "id": 1, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "2", "pemiteReserva": "Sim" },
-      { "id": 2, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Não", "quantMaxEmprestimo": "4", "pemiteReserva": "Sim" },
-      { "id": 3, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "3", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "4", "pemiteReserva": "Não" },
-      { "id": 4, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "4", "valorMulta": "1", "permiteRenovar": "Não", "quantMaxEmprestimo": "2", "pemiteReserva": "Sim" },
-      { "id": 5, "tipoPrazo":  "Entrega", "prazoEntregaQuantDias":  "1", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaxEmprestimo": "3", "pemiteReserva": "Não" }
+      { "id": 1, "tipoDocumento":  "Livro", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaximaUnidade": "2", "pemiteReserva": "Sim" },
+      { "id": 2, "tipoDocumento":  "Revista", "prazoEntregaQuantDias":  "2", "valorMulta": "1", "permiteRenovar": "Não", "quantMaximaUnidade": "4", "pemiteReserva": "Sim" },
+      { "id": 3, "tipoDocumento":  "Artigo", "prazoEntregaQuantDias":  "3", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaximaUnidade": "4", "pemiteReserva": "Não" },
+      { "id": 4, "tipoDocumento":  "Obra Rara", "prazoEntregaQuantDias":  "4", "valorMulta": "1", "permiteRenovar": "Não", "quantMaximaUnidade": "2", "pemiteReserva": "Sim" },
+      { "id": 5, "tipoDocumento":  "Periódico", "prazoEntregaQuantDias":  "1", "valorMulta": "1", "permiteRenovar": "Sim", "quantMaximaUnidade": "3", "pemiteReserva": "Não" }
     ],
 
     "exemplar": [
-      { "id": 1, "numTombo":  "2568", "dtAquisicao":  "02/05/2016",  "tipoAquisicao": "01/05/1996", "valor": "rua 52"},
-      { "id": 2, "numTombo":  "3689", "dtAquisicao":  "06/09/2007",  "tipoAquisicao": "03/06/1996", "valor": "rua 9"},
-      { "id": 3, "numTombo":  "7856", "dtAquisicao":  "22/05/2005",  "tipoAquisicao": "03/06/1996", "valor": "rua 155"},
-      { "id": 4, "numTombo":  "1554", "dtAquisicao":  "21/03/2008",  "tipoAquisicao": "03/05/1998", "valor": "rua 66"},
-      { "id": 5, "numTombo":  "2369", "dtAquisicao":  "02/06/2001",  "tipoAquisicao": "21/12/2003", "valor": "rua 2"}
+      { "id": 1, "numTombo":  "2568", "dtAquisicao":  "02/05/2016",  "tipoAquisicao": "Doação", "valor": "R$ 50,00"},
+      { "id": 2, "numTombo":  "3689", "dtAquisicao":  "06/09/2007",  "tipoAquisicao": "Compra", "valor": "R$ 100,00"},
+      { "id": 3, "numTombo":  "7856", "dtAquisicao":  "22/05/2005",  "tipoAquisicao": "Compra", "valor": "R$ 58,90"},
+      { "id": 4, "numTombo":  "1554", "dtAquisicao":  "21/03/2008",  "tipoAquisicao": "Doação", "valor": "R$ 210,00"},
+      { "id": 5, "numTombo":  "2369", "dtAquisicao":  "02/06/2001",  "tipoAquisicao": "Troca", "valor": "R$ 55,90"}
     ],
 
     "titulo": [
